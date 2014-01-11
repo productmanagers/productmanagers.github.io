@@ -1,0 +1,19 @@
+name: ""
+relative_permalinks: true
+
+author :
+  name : David Kim
+  email : codingbootcamps@gmail.com
+  github : dklounge
+  twitter : findinbay
+
+  # Google analytics
+  analytics:
+    provider: google
+    google:
+      tracking_id: 'UA-43170427-1'
+    getclicky:
+      site_id:
+
+production_url : http://refactor.com
+BASE_PATH : false

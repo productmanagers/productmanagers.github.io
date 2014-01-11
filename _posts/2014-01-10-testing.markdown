@@ -1,0 +1,11 @@
+---
+
+layout: post
+title : hold onto your pants/skirts ...
+permalink: /blog/skirt-holder-from-posts
+catgory: blog
+
+---
+
+
+hold onto your pants/skirts ...
