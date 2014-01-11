@@ -11,7 +11,7 @@ tags : [exercise 01]
 To show your pants off to the world. (Sorry for the apparel reference - it\'s a joke about the proverbial first website tutorial, which is always \"helloworld.\" Though there is a good reason for it - websites become interface to the entire connected world.)
 
 ###Recap###
-So the point of [initial simple site](../day00-hold-onto-your-pants-site/) lesson on day 0 was to get something up and running on the web.
+So the point of [initial simple site](../hold-onto-your-pants-site/) lesson on day 0 was to get something up and running on the web.
 
 _Let\'s get you to do the same. To minimize confusion, I suggest we all use same tools when possible._
 
