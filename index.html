@@ -2,14 +2,14 @@
 layout: default
 ---
 
-<p>Hold onto your pants/skirts ... </p>
-<p>I am going to share stuff here that I wish someone had shared with me when I started coding. <strong>It is the Web 101 class I wish I had as a MBA student.</strong> Unfortunatley, good developers (<em>I am not one</em>) were/are too busy to help. But, I like being a guide, and I want to help you. <strong>For free!</strong></p>
-<p>I know that this page is very Web 1.0. <em>It's because I'm old.</em> We are going to improve this site day by day together. Just follow along by following the daily links. Sometimes, you will only see the usefulness of certain topics looking back. Be patient.</p>
+<p><em>Hold onto your pants/skirts ... </em></p>
+<p>I am going to share stuff here that I wish someone had shared with me when I started coding. <strong>It is the Web 101 class I wish I had as a MBA student.</strong> Unfortunatley, good developers were too busy (or made too much money) to help me. But, I like being a guide, and I want to help you. <strong>For free!</strong></p>
+<p>I know that this page is very Web 1.0. <em>It's because I'm old.</em> Actually, it's simple, because we are going to improve it together step by step. Just follow along each new lesson. Sometimes, the value of the topic will become apparent only in looking back. Be patient.</p>
 <br>
 
 {% for post in site.posts %}
  </ul>
-  <li>{{ post.tags }}: <a href="{{ post.url }}">{{post.title}}</a></li>
+  <li>{{ post.tags[1] }}: <a href="{{ post.url }}">{{post.title}}</a></li>
  <ul>
 
 {% endfor %}

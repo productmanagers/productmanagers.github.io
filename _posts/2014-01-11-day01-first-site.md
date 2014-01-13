@@ -1,14 +1,16 @@
 ---
 
 layout: post
-title : creating-your-first-website
-permalink: /blog/creating-your-first-website
-categories: [lesson, jekyll, web development]
-tags : [exercise 01]
+title : first-site-with-git-generator
+permalink: /blog/first-site-with-git-generator
+categories: [exercise, web_development]
+tags : [part01,exercise01]
 
 ---
 ###Goal###
-To show your pants off to the world. Sorry for the apparel reference - it\'s a joke about the proverbial first website tutorial, which generally starts with phrase \"helloworld.\" Of course, it\'s an apt first text. Websites become interface to the entire connected world. Think of that - websites could be purely informational, but they can also become a medium for communicating thoughts or expressing your aesthetics. But, one small step at a time ...
+To show your pants off to the world.
+
+Sorry for the apparel reference - it\'s a joke about the proverbial first website tutorial, which generally starts with phrase \"helloworld.\" Of course, it\'s an apt first text. Websites become interface to the entire connected world. Think of that - websites could be purely informational, but they can also become a medium for communicating thoughts or expressing your aesthetics. But, one small step at a time ...
 
 ###Recap###
 So the point of [initial simple site](../hold-onto-your-pants-site/) lesson on day 0 was to get something up and running on the web.
