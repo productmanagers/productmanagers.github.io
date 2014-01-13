@@ -5,8 +5,14 @@ layout: default
 {% if page.path contains '_posts' %}
   <h4>{{ page.tags[1] }}: {{page.title}}</h4>
   {{content}}
+  {% if page.comments %}
+    {% include disqus %}
+  {% endif %}
 {% else %}
   {{content}}
+  {% if page.comments %}
+    {% include disqus %}
+  {% endif %}
 {% endif %}
 
 
