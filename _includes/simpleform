@@ -1,0 +1,9 @@
+<form action="http://getsimpleform.com/messages?form_api_token=3490a732747a1bc590e02dbbc93dfce3" method="POST">
+  <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+  <!-- input type='hidden' name='redirect_to' value='http://pleaserefactor.com' /-->
+  <!-- all your input fields here.... -->
+  <label>Email me some good stuff:
+    <input type='text' name='email' required />
+  </label>
+  <input type='submit' value='Subscribe' />
+</form>
