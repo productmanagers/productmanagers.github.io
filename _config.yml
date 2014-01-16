@@ -1,5 +1,7 @@
 name: ""
 relative_permalinks: true
+# paginate: 12
+# paginate_path: "blog/page:num"
 
 author :
   name : David Kim
@@ -15,6 +17,6 @@ author :
     getclicky:
       site_id:
 
-production_url : http://refactor.com
+production_url : http://pleaserefactor.com/
 BASE_PATH : false
 ASSET_PATH: false
