@@ -14,7 +14,7 @@ To show your pants off to the world.
 Sorry for the apparel reference - it\'s a joke about the proverbial first website tutorial, which generally starts with phrase \"helloworld.\" Of course, it\'s an apt first text. Websites become interface to the entire connected world. Think of that - websites could be purely informational, but they can also become a medium for communicating thoughts or expressing your aesthetics. But, one small step at a time ...
 
 ###Recap###
-So the point of [initial simple site](../hold-onto-your-pants-site/) lesson on day 0 was to get something up and running on the web.
+So the point of the previous lesson on [initial simple site](../hold-onto-your-pants-site/) was to get something up and running on the web.
 
 _Let\'s get you to do the same. To minimize confusion, I suggest we all use same tools when possible. More on tools in days to come._
 
