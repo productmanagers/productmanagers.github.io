@@ -44,7 +44,7 @@ If you did the previous lesson on [generating a page with git](../first-site-wit
 These instructions should make more sense in conjunction with the video which walks you through creating files locally using `touch` command and reading them using `cat` command. You can list your files in the current folder with `ls` command.
 
 ###Summary###
-This lesson was about getting comfortable with github and git commands, and hopefully some basic UNIX commands as well. In the companion lesson [html basics](../html-add-text-images/) you also gained familiarity with creating a _very_ basic webpage. In the next lesson on [mockups with balsamiq](../mock-with-balsamiq), you will have a chance to design what your site looks like. It will be fun.
+This lesson was about getting comfortable with github and git commands, and hopefully some basic UNIX commands as well. In the companion lesson [html basics](../html-add-text-images/) you also gained familiarity with creating a _very_ basic webpage. In the next lesson on [mockups with balsamiq](../mockup-tools-balsamiq), you will have a chance to design what your site looks like. It will be fun.
 
 ###Resources###
 If you didn\'t start with us from the beginning, and are trying to follow along in Windows machine (fine machines), you might be scratching your head when you open the COMMAND terminal and find that UNIX commands do not work.
