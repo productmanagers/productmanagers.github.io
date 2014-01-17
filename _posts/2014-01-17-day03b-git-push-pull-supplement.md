@@ -4,7 +4,7 @@ title : git-push-pull-supplement
 permalink: /blog/git-push-pull-supplement
 comments: true
 categories: [exercise, web_development]
-tags : [part01, exercise03b]
+tags : [part01, exercise 03b]
 
 ---
 
@@ -29,7 +29,7 @@ If you did the previous lesson on [generating a page with git](../first-site-wit
 * First navigate to a folder location where you want to clone your repo.
 * Next copy the repo url (see image below) from github.
 
-  ![git clone]({{site.url}}/assets/images/2014-01-16_day03b_gitclone.png)
+  ![git clone]({{site.url}}/assets/images/2014-01-16_day03b_gitclone.png "github repo example")
 
 * In your terminal navigated to the place where you will clone the folder, type the following (The $ sign comes with your terminal, so don\'t type that):
 
@@ -37,7 +37,7 @@ If you did the previous lesson on [generating a page with git](../first-site-wit
 
 * It should look something like this - in this case with my repo address -
 
-  ![git clone terminal]({{site.url}}/assets/images/2014-01-16_day03b_terminal.png)
+  ![git clone terminal]({{site.url}}/assets/images/2014-01-16_day03b_terminal.png "git clone in terminal")
 
 * When you hit enter, you will see some messages in your console, and then you will find that it will have created a clone of the files you see on your github on your computer, so that you can edit and play with the files.
 

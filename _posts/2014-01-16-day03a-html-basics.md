@@ -4,7 +4,7 @@ title : html-add-text-images
 permalink: /blog/html-add-text-images
 comments: true
 categories: [exercise, web_development]
-tags : [part01, exercise03a]
+tags : [part01, exercise 03a]
 
 ---
 
@@ -23,7 +23,7 @@ A _parser_ is like an interpreter. As an example, you feed it French, and it giv
 
 For our purposes, it\'s probably enough to share the following diagram of how what you do relates to the web. On the left, you type html, then in the middle, web or mobile browser _parses_ the html with built-in parsers. This allows the browsers to _render_ the html (or css or other markup instructions) to the end-users on the right. For us, the end-users could be mom and dad, or your friends, or me, or potential recruiters.
 
-![diagram of html to browser]({{site.url}}/assets/images/2014-01-16_day03a_w3.png)
+![diagram of html to browser]({{site.url}}/assets/images/2014-01-16_day03a_w3.png "Diagram of html parser")
 
 __B. Clone your github repo to local__
 
