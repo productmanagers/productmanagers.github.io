@@ -2,14 +2,20 @@
 layout: default
 ---
 
-<p><em>Hold onto your pants/skirts ... </em></p>
-<p>I want to share stuff that I wish someone had told me when I started coding. <strong>It is the Web 101 class I wish I had as a MBA student.</strong> Unfortunately, good developers were too busy (or made too much money) to help me. But, I like being a guide, and I want to help you. <strong>For free!</strong></p>
+<p>I want to share stuff that I wish I knew when I started coding. <strong>It is the Web 101 and Tech Product class I wish I had as a MBA student.</strong> Unfortunately, good developers were too busy (or made too much money) to help me. But, I like being a guide, and I want to help you. <strong>For free!</strong></p>
 <p>I know that this page is very Web 1.0. <em>It's because I'm old.</em> Actually, we will improve it together over time. Just follow along each new lesson. Sometimes, the value of the topic will become apparent only in looking back. Be patient.</p>
 <br>
 
-</ul>
-{% for post in site.posts %}
-  <li>{{ post.tags[1] }}: <a href="{{ post.url }}">{{post.title}}</a> {{ post.date | date: "<small style='color: gray;'>(%b. %d, %Y)</small>"}}</li>
-{% endfor %}
-
+<strong>Part 1</strong>
 <ul>
+{% for post in site.posts %}
+  {% if {{post.tags[0]}} == 'part01' %}
+  <li>{{ post.tags[1] }}: <a href="{{ post.url }}">{{post.title}}</a> {{ post.date | date: "<small style='color: gray;'>(%b. %d, %Y)</small>"}}</li>
+  {% endif %}
+{% endfor %}
+</ul>
+
+<strong>Part 2 - 5</strong>
+<p><em>Hold onto your pants/skirts ... </em></p>
+
+<a href="./blog/web101-for-mba-outline">Outline of the rest is here</a>
