@@ -5,7 +5,7 @@ title : first-site-with-git-generator
 permalink: /blog/first-site-with-git-generator
 comments: true
 categories: [exercise, web_development]
-tags : [part01,exercise01]
+tags : [part01,exercise 01]
 
 ---
 ###Goal###
