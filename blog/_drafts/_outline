@@ -1,0 +1,76 @@
+## Central Themes
+- Automation
+- Abstraction
+- Modularity
+- Tools and Processes
+
+## Part 1: Environment Basics
+00 hold-onto-your-pants-site
+01 first-site-with-git-generator
+02a setting-up-git-ruby-cli
+02b big-picture-outline
+03a html-add-text-images
+03b git-push-pull-supplement
+04 mock-with-balsamiq
+05 css-with-bootstrap
+06 project-css-supplement
+07 your-first-blog-entry
+08 adding-basic-navigation
+09 badger-your-own-domain
+10 what-is-technical-product-manager
+11 understanding-startups (Jackson Solway)
+
+## Part 2: Software Product Development Process
+11 agile-sprint-scrum-process
+12 product-roadmapping-trip
+13 prototyping-mockups (Ritu)
+14a elements-of-good-ux-design (Ryan from meetups?)
+14b deeper-dive-personas (Ellen Choi?)
+15a elements-of-good-ui-design (Miki)
+15b cool-ui-design-sites
+16 howto-write-software-user-stories (from hackdesign.org)
+cucumber
+17 designing-hooks-with-nir (Nir Eyal)
+18 project-management-tools (Justen from Atlassian)
+19 quality-assurance (Josh?)
+20
+<http://www.elezea.com/2010/07/product-management-overview/>
+
+## Part 3: Building a Blog with Jekyll and Bootstrap
+21 install-and-run-jekyll
+22 looping-and-cool-shit (automation theme)
+23 abstracting-layout (abstraction theme -> frameworks)
+24 adding-bootstrap
+25 adding-dynamic-titles
+26 http-verbs-explained
+27 server-client-architecture
+28 installing-disqus-comments
+29
+30 what-do-hackers-want (Mark Wilbur)
+
+## Part 4: Modern Growth Hacking
+31 seo-basics (Cort)
+32 inbound-marketing (Cort)
+33 how-profellow-grows-users (Ryan)
+34 how-chris-builds-community (Chris Guillebeau)
+35 war-stories-from-mashape (Montana)
+
+## Part 5: Glimpse into the Future
+36 models-for-future (cite Peter Thiel)
+37 how-to-build-wealth (Paul Graham)
+38 teams-of-tomorrow (Ryan Carson from Treehouse on no managers)
+39 on-programming-languages (Robert Levy)
+40 what-is-open-source (Robret Fletcher)
+41 future-internet-of-things (article by Joyent CTO)
+
+## Part 6: Optional - JavaScript
+
+## Part 7: Optional - Users and Databases
+
+## Notes from Design Class
+- Who is your target user -> build for someone specific, not someone general (you end up with broader appeal)
+- Check out Allan Cooper, designer
+
+## Ideas
+- Think about what the customer needs. For technical MBA, they want cheat sheets
+- Write a post about Learning by Peter Drucker

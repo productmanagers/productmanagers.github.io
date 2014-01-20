@@ -27,11 +27,11 @@ Right. So let\'s dive right in. Whenever my friends talk about prototyping, they
 
 The diagram in [HTML basics lesson](../html-add-text-images) I shared other day was done with Balsamiq. It\'s a nice tool for quick visuals like that one - reproduced below. The nice thing is, after you create your mock-up, you can export it to an image, or save the Balsamiq work file for future edit, and so forth.
 
-![diagram of html to browser]({{site.url}}/assets/images/2014-01-16_day03a_w3.png "a Balsamiq drawing")
+![diagram of html to browser]({{site.url}}/assets/images/2014-01-16_day03a_w3.png "a Balsamiq drawing" class="img-responsive")
 
 [Google Drive Drawings](http://www.google.com/drive/apps.html) is also surprisingly useful. It is easy to use and easy to share thanks to its integration to the Drive. You could use it to design your simple blog site, and post a link to show others. I was playing around the other day, and came up with this in a minute or two.
 
-![GoogleDrawing]({{site.url}}/assets/images/2014-01-19_day04_googdraw.png "a google drawing prototype")
+![GoogleDrawing]({{site.url}}/assets/images/2014-01-19_day04_googdraw.png "a google drawing prototype" class="img-responsive")
 
 Fancy, eh?
 
