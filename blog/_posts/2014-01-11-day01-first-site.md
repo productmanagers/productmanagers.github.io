@@ -1,5 +1,4 @@
 ---
-
 layout: post
 title : first-site-with-git-generator
 permalink: /blog/first-site-with-git-generator

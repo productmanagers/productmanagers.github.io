@@ -78,15 +78,17 @@ __index.html__
 
 Let\'s strip and then put some stuff inside of your html as follows:
 
-    1 <!DOCTYPE html>
-    2 <html>
-    3    <head>
-    4       <title>Your title</title>
-    5    </head>
-    6    <body>
-    7       <p>Hold onto your pants</p>
-    8    </body>
-    9 </html>
+{% highlight html linenos %}
+    <!DOCTYPE html>
+    <html>
+      <head>
+        <title>Your title</title>
+      </head>
+      <body>
+        <p>Hold onto your pants</p>
+      </body>
+    </html>
+{% endhighlight %}
 
 You can use your browser to navigate to this folder, find the `index.html` file and open it. Then you will see this item displayed! Once again, refer to the diagram at the top of this page. Remember how your browser __renders__ the __html__ you type?
 
@@ -100,14 +102,15 @@ Inside of the `./assets/images/` folder (once again, the dot refers to current d
 
 Modify the __html__ file between the body tages to add an image. (By the way, the numbers just indicate line numbers in your text editor - it is a reference, not something you type directly.)
 
+{% highlight html %}
     ...
-    6  <body>
-    7     <p>Hold onto your pants</p>
-    8     <p>This is me!</p>
-    9     <img src="./assets/images/profile.png" alt="my handsome face">
-    10 </body>
+    <body>
+      <p>Hold onto your pants</p>
+      <p>This is me!</p>
+      <img src="./assets/images/profile.png" alt="my handsome face">
+    </body>
     ...
-
+{% endhighlight %}
 Notice this is a new __img__ tag. Unlike the other tags we saw, this one stands alone and does not have a closing tag. The `src=` is called a tag __attribute__ and in this case, shows the source path to the image you saved in the `assets/images/` folder. If you did your work properly, then you should see your face on this page along with the new text!
 
 The `alt` tag is optional, but in the event a browser cannot render your image, because of slow connection or because images are blocked, this alt text will appear instead.

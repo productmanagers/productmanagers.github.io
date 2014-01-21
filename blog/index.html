@@ -2,12 +2,14 @@
 layout: default
 ---
 
+{% include setup %}
+
 <h2>All Blogs</h2>
+
+<p>All prior blogs</p>
 
 <ul>
 {% for post in site.posts %}
-  {% if {{post.tags[0]}} == 'part01' %}
   <li>{{ post.tags[1] }}: <a href="{{ post.url }}">{{post.title}}</a> {{ post.date | date: "<small style='color: gray;'>(%b. %d, %Y)</small>"}}</li>
-  {% endif %}
 {% endfor %}
 </ul>

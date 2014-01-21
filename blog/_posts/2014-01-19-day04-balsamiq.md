@@ -66,4 +66,4 @@ It is very difficult to appreciate and design the complexities of a product _a p
 ###Meditation###
 * Is success gained only through failure, as Michael\'s quote suggests?
 
-* _Is David full of shit about prototyping being a waste of time?_
+* _Is David full of crap about prototyping being a waste of time?_

@@ -1,6 +1,9 @@
 ---
 layout: default
+description: "This is the programming 101 and Tech Product class I wish I had as a MBA student at Darden. The contents will help non-technical business managers gain familiarity with HTML/CSS, web development, and how to talk the technical talk. Hopefully, it will help you on your journey to be a tech company product manager."
 ---
+
+{% include setup %}
 
 <h2>Tech Product Manager</h2>
 
@@ -17,7 +20,7 @@ Before we learn more about product management, we are getting our technical toes
 
 <br><br>
 
-<strong>Part 1</strong>
+<strong>Part 1: At least learn some basic tech</strong>
 <ul>
 {% for post in site.posts %}
   {% if {{post.tags[0]}} == 'part01' %}
@@ -26,7 +29,7 @@ Before we learn more about product management, we are getting our technical toes
 {% endfor %}
 </ul>
 
-<strong>Part 2 - 5</strong>
+<strong>Part 2 - 5: Then learn some real PM stuff</strong>
 <p><em>Hold onto your pants/skirts ... </em></p>
 
 <a href="./blog/web101-for-mba-outline">Outline of the rest is here</a>
