@@ -54,10 +54,14 @@ So, we looked at [Balsamiq](http://balsamiq.com/) and [Google Drive Drawings](ht
 
 * [Hack Design toolkit](https://hackdesign.org/toolkit/rapid-prototyping) - wealth of tools curated by top designers
 
+* [35 Excellent Wireframing Resources](http://www.smashingmagazine.com/2009/09/01/35-excellent-wireframing-resources/) - by the oustanding folks at Smashing Magazine
+
 ###Funwork###
 Okay, the prior statement _'possibly useless'_ in referring to Photoshop is unfair. My mission is to equip you with the awareness of useful tools to be more effective as a product manager. This was not a debate over best prototyping tools, or whether or not you should use them. Now, you know they exist, do some good in the world with that knowledge!
 
-That said, in this __Funwork__ section, I confess I rarely use a prototyping tool. I did when I was a newbie, but I found I enjoy the code-view-debug cycle more to my taste. Plus prototyping has this danger: I felt like I was doing something, __but I was not building the actual product!__ For example, for high-level ideas, pencil sketch or Google Drawing works fine. To create high fidelity mock-ups with something lik Axure and Photoshop is time-consuming. In large organizations, it could be a full-time job unto itself (a UI designer, for example). And yet I could not really see the point of handing off something that is just a fancy image to a development team to build. (This is possibly why Balsamiq is successful - it is well-balanced.)
+That said, in this __Funwork__ section, I confess I rarely use a prototyping tool. I did when I was a newbie, but I found I enjoy the code-view-debug cycle more to my taste. Everyone works differently, though I suspect there are best-practices.
+
+Watch out for this danger: drawing up mockups can feel like doing work, __but it is not the actual product!__ For example, for high-level ideas, pencil sketch or Google Drawing works fine. To create high fidelity mock-ups with Photoshop can be time-consuming. In large organizations, it could be a full-time job unto itself (a UI designer, for example). It feels inefficient handing off a high-resolution image to a development team to build. (This is possibly why Balsamiq is successful - it is well-balanced.)
 
 It is very difficult to appreciate and design the complexities of a product _a priori_ using a drawing. _This is only my opinion._ Yet, I have corroborated my own impressions with a team that I really respect. I found this insightful blog by the folks at [37 Signals](http://37signals.com/).
 
