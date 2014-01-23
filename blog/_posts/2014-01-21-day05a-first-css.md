@@ -84,7 +84,7 @@ There are five lines in the body rule we defined. What do you suspect they do li
 __Key Concept__: Experimentation is a virtue, when the cost of trying is low.
 
 ###Twitter Bootstrap###
-Pending ... come back soon. In the mean time, the idea is similar - download Twitter bootstrap and "link" the CSS file.
+Similarly, you can download and install CSS using Bootstrap framework. I will refer you to the companion [video walkthrough here](../css-bootstrap-video).
 
 You might be wondering, what about the __main.css__ file? Well, we will come around to that. That said, it is perfectly fine to have multiple CSS files linked to your page.
 
@@ -95,6 +95,9 @@ We linked CSS file to your site. As before, you can view or download the [person
 * Download [Bootstrap](http://getbootstrap.com).
 
 ###Funwork###
-Play around with the CSS elements.
+* Play around with the CSS elements.
+* We are going to soon install and use [Jekyll](http://jekyllrb.com/) and [Jekyll Bootstrap](http://jekyllbootstrap.com/lessons/jekyll-introduction.html) to build static sites. You might enjoy glancing ahead.
+* To take advantage of __Jekyll__ we will need to learn Markdown. (Note that HTML is a markup language. Such humor and word play is quite prevalent in the software development space.) Checkout the [syntax for markdown](http://daringfireball.net/projects/markdown/). But, don\'t get bogged down. We will learn markdown as we go forward.
 
 ###Meditation###
+None
