@@ -18,6 +18,6 @@ analytics:
   getclicky:
     site_id:
 
-production_url : http://pleaserefactor.com
+production_url : http://techproductmanager.com
 BASE_PATH : false
 ASSET_PATH: false

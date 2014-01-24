@@ -1,6 +1,6 @@
 ---
 layout: post
-title : mockup-tools-balsamiq
+title : "Balsamiq and mock up tools"
 permalink: /blog/mockup-tools-balsamiq
 comments: true
 categories: [exercise, web_development]

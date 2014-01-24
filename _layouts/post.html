@@ -4,9 +4,19 @@ layout: default
 
 {% if page.path contains '_posts' %}
   <div class="title">{{ page.tags[1] }}: {{page.title}}</div>
+  <br>
+  {% include share_tweet.js %}
+  {% include share_reddit.js %}
+  {% include share_gplus.js %}
 
   {{content}}
+
   <br>
+  {% include share_tweet.js %}
+  {% include share_reddit.js %}
+  {% include share_gplus.js %}
+
+  <br><br>
 
   <a href="../../">
     <button type="button" class="btn btn-primary">
@@ -29,6 +39,7 @@ layout: default
   {% if page.comments %}
     {% include disqus %}
   {% endif %}
+
 
 {% else %}
 

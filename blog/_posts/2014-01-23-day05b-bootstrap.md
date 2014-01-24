@@ -1,6 +1,6 @@
 ---
 layout: post
-title : css-bootstrap-video
+title : "CSS and Bootstrap walkthrough"
 permalink: /blog/css-bootstrap-video
 comments: true
 categories: [exercise, web_development]
