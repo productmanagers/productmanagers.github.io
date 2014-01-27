@@ -10,6 +10,7 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   color: #321;
+  font-family: proxima-nova, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 img {
@@ -79,4 +80,33 @@ footer {
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
   color: gray;
+}
+
+.headliner {
+  font-weight: bold;
+  color: orange;
+  font-style: italic;
+  margin: 0.67em 0;
+  font-size: 2em;
+}
+
+.team-smiles {
+  padding: 10px 0 15px 0;
+}
+
+.face {
+  display: block;
+  border-radius: 3%;
+  text-align: center;
+    -moz-box-shadow:    2px 2px 3px 2px #ccc;
+    -webkit-box-shadow: 2px 2px 3px 2px #ccc;
+  box-shadow:         2px 2px 3px 2px #ccc;
+}
+
+.face span {
+  font-family: Geneva, Tahoma, Verdana, sans-serif;
+}
+
+.face img {
+  margin: 5px;
 }

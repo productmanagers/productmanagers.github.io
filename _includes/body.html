@@ -1,6 +1,6 @@
   <div class="container">
-    <h2>{% if page.title %}{{ page.title }}{% endif %}</h2>
-    <h3>{% if page.tagline %} <small>{{ page.tagline }}</small>{% endif %}</h3>
+    {% if page.title %}<h2>{{ page.title }}</h2>{% endif %}
+    {% if page.tagline %} <h3><small>{{ page.tagline }}</small></h3>{% endif %}
 
     {{content}}
   </div>

@@ -26,7 +26,7 @@ It is probably a good idea to pause and clarify (for the late-comers) the follow
 * In part 1 of that path, we are getting our technical feet wet with not just CSS/HTML, but actually building and hosting a personal site.
 * I recommend you use the opportunity to build a personal site or a blog site, not only for the experience, but as a calling card for yourself.
 * An overarching goal here is to undersand software processes better, and to gain a more tangible understanding of how software developers work and think.
-* As always, I am here to help you. If you have questions, not only can you post a comment, you can [write me directly](../../askdave/).
+* As always, I am here to help you. If you have questions, not only can you post a comment, you can [write me directly](../../ask/).
 
 __Transformation__
 

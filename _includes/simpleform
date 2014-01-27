@@ -1,16 +1,17 @@
 <form action="http://getsimpleform.com/messages?form_api_token=3490a732747a1bc590e02dbbc93dfce3" method="POST">
-  <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
-  <!-- input type='hidden' name='redirect_to' value='http://techproductmanager.com' /-->
   <!-- all your input fields here.... -->
+  <input type='hidden' name='redirect_to' value='http://techproductmanager.com/yourock.html' />
+
   <label>
     <textarea name="textarea" rows="10" cols="50">Please write your question or comment here.</textarea>
   </label>
   <br>
-  <label>This is my email:<br>
-    <input type='textarea' name='email' required />
+  <label>Please include a valid email:<br>
+    <input type='textarea' name='email'
+     pattern="[\w+\-.]+@[a-z\d\-.]+\.[a-z]+" required />
   </label>
   <br>
-  <small><em>Don't worry. I won't sell you out.</em></small>
+  <small><em>We don't sell your email.</em></small>
   <br><br>
   <input type='submit' value='Submit' />
 </form>

@@ -25,7 +25,7 @@ None
 
 ###Resources###
 * Download [Bootstrap](http://getbootstrap.com).
-* If you still get stuck, please feel free to reach out with question via [contact form](../../askdave/).
+* If you still get stuck, please feel free to reach out with question via [contact form](../../ask/).
 
 ###Funwork###
 * We are going to soon install and use [Jekyll](http://jekyllrb.com/) and [Jekyll Bootstrap](http://jekyllbootstrap.com/lessons/jekyll-introduction.html) to build static sites. You might enjoy glancing ahead.

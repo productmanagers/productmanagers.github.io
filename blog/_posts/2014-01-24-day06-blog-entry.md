@@ -61,7 +61,7 @@ Among other things, we introduced you to the following new concepts and technolo
 * Jekyll - a way for converting plain text to websites/blogs
 
 ###Resources###
-__Video walthrough of running Jekyll__
+__Video walkthrough of running Jekyll__
 
 <iframe width="560" height="315" src="http://www.youtube.com/embed/O7jwA3LSEdA" frameborder="0" allowfullscreen="allow">
 </iframe>
