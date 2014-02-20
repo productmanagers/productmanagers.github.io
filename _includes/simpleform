@@ -1,6 +1,6 @@
 <form action="http://getsimpleform.com/messages?form_api_token=3490a732747a1bc590e02dbbc93dfce3" method="POST">
   <!-- all your input fields here.... -->
-  <input type='hidden' name='redirect_to' value='http://techproductmanager.com/yourock.html' />
+  <input type='hidden' name='redirect_to' value='http://productmanagementfasttrack.com/pages/yourock.html' />
 
   <label>
     <textarea name="textarea" rows="10" cols="50">Please write your question or comment here.</textarea>
