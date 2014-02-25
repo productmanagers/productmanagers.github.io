@@ -4,6 +4,7 @@
 
 {% include twitter/css/bootstrap.css %}
 {% include twitter/css/bootstrap-theme.css %}
+{% include theme/landing-page.css %}
 
 body {
   padding-top: 70px;
