@@ -1,206 +1,36 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+layout: default
+description: "This is the Web 101 and Tech Product class I wish I had as a MBA student at Darden. The contents will help non-technical business managers talk the technical talk. Hopefully, it will help you on your journey to be a tech company product manager."
+---
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
+{% include setup %}
 
-    <title>Landing Page Template for Bootstrap</title>
+<div class="headliner">Feeling lost about product management?</div>
 
-    <!-- Bootstrap core CSS -->
-      <link href="/assets/css/main.css" rel="stylesheet">
+<p>You've come to the <strong>right place</strong> to learn the skills and learn about the top practitioners.</p>
 
-    <!-- Custom Google Web Font -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+<p>In a way, it is the <strong>Web and Tech Product Management resource I wish I had</strong> as a MBA student.</p>
 
-    <!-- Add custom CSS here -->
-    <link href="css/landing-page.css" rel="stylesheet">
+<br>
 
-</head>
+<h4>Part 1: Tech basics by building a blog</h4>
+<ul>
+{% for post in site.posts %}
+  {% if {{post.tags[0]}} == 'part01' %}
+  <li>{{ post.tags[1] }}: <a href="{{ post.url }}">{{post.title}}</a> {{ post.date | date: "<small style='color: gray;'>(%b. %d, %Y)</small>"}}</li>
+  {% endif %}
+{% endfor %}
+</ul>
 
-<body>
+<h4>Part 2 - 5: On broader product management topics</h4>
+<p><em>Hold onto your pants/skirts ... </em></p>
 
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="http://startbootstrap.com">Start Bootstrap</a>
-            </div>
+<a href="./blog/technical-PM-outline">Outline of the rest is here</a>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
-                <ul class="nav navbar-nav">
-                    <li><a href="#about">About</a>
-                    </li>
-                    <li><a href="#services">Services</a>
-                    </li>
-                    <li><a href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
+<br><br>
 
-    <div class="intro-header">
+<h4>Progress/Community Note</h4>
+Last night in San Fran, Jackie Bavaro of Asana spoke about having diverse skill sets as a product manager. She blogs about product management at <a target="_" href="http://pmblog.quora.com/">The Art of Product Management</a>.
+<br><br>
+<img class="img-responsive" alt="Jackie from Asana" src="/assets/images/2014-01-24_jackiebo.jpg">
 
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="intro-message">
-                        <h1>Landing Page</h1>
-                        <h3>A Template by Start Bootstrap</h3>
-                        <hr class="intro-divider">
-                        <ul class="list-inline intro-social-buttons">
-                            <li><a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                            </li>
-                            <li><a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                            </li>
-                            <li><a href="#" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.intro-header -->
-
-    <div class="content-section-a">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-5 col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">Death to the Stock Photo:
-                        <br>Special Thanks</h2>
-                    <p class="lead">A special thanks to Death to the Stock Photo for providing the photographs that you see in this template. <a target="_blank" href="http://join.deathtothestockphoto.com/">Visit their website</a> to become a member.</p>
-                </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/ipad.png" alt="">
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.content-section-a -->
-
-    <div class="content-section-b">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">3D Device Mockups
-                        <br>by PSDCovers</h2>
-                    <p class="lead">Turn your 2D designs into high quality, 3D product shots in seconds using free Photoshop actions by PSDCovers! <a target="_blank" href="http://www.psdcovers.com/">Visit their website</a> to download some of their awesome, free photoshop actions!</p>
-                </div>
-                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <img class="img-responsive" src="img/doge.png" alt="">
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.content-section-b -->
-
-    <div class="content-section-a">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-5 col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">Google Web Fonts and
-                        <br>Font Awesome Icons</h2>
-                    <p class="lead">This template features the 'Lato' font, part of the <a target="_blank" href="http://www.google.com/fonts">Google Web Font library</a>, as well as <a target="_blank" href="http://fontawesome.io">icons from Font Awesome</a>.</p>
-                </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/phones.png" alt="">
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.content-section-a -->
-
-    <div class="banner">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-6">
-                    <h2>Connect to Start Bootstrap:</h2>
-                </div>
-                <div class="col-lg-6">
-                    <ul class="list-inline banner-social-buttons">
-                        <li><a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                        </li>
-                        <li><a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                        </li>
-                        <li><a href="#" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.banner -->
-
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <ul class="list-inline">
-                        <li><a href="#home">Home</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li><a href="#about">About</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li><a href="#services">Services</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li><a href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                    <p class="copyright text-muted small">Copyright &copy; Your Company 2013. All Rights Reserved</p>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!-- JavaScript -->
-    <script src="js/jquery-1.10.2.js"></script>
-    <script src="js/bootstrap.js"></script>
-
-</body>
-
-</html>
