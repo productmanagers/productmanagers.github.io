@@ -7,15 +7,27 @@
 {% include theme/landing-page.css %}
 
 body {
-  padding-top: 70px;
-  padding-left: 15px;
-  padding-right: 15px;
   color: #321;
   font-family: proxima-nova, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 img {
   max-width: 500px;
+}
+
+.navbar-brand  {
+  font-size: 25px;
+  color: #fff;
+  -webkit-transition: background-color 0.25s ease-in;
+  -moz-transition: background-color 0.25s ease-in;
+  transition: all 0.25s ease-in;
+}
+
+.navbar-nav a  {
+  color: #fff;
+  -webkit-transition: background-color 0.15s ease-in;
+  -moz-transition: background-color 0.15s ease-in;
+  transition: all 0.15s ease-in;
 }
 
 code, pre {
@@ -27,6 +39,7 @@ code, pre {
     -moz-border-radius:3px;
     border-radius:3px;
   }
+
 code {
   padding:2px 4px;
   color:#d14;
@@ -34,6 +47,7 @@ code {
   border:1px solid #e1e1e8;
   white-space:nowrap;
 }
+
 pre {
   display:block;
   padding:9.5px;
@@ -77,8 +91,7 @@ li {
 /* footer */
 
 footer {
-  margin-top: 45px;
-  padding-top: 5px;
+  padding-top: 20px;
   border-top: 1px solid #eaeaea;
   color: gray;
 }

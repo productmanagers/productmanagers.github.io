@@ -1,0 +1,36 @@
+---
+layout: default
+description: "This is the Web 101 and Tech Product class I wish I had as a MBA student at Darden. The contents will help non-technical business managers talk the technical talk. Hopefully, it will help you on your journey to be a tech company product manager."
+---
+
+{% include setup %}
+
+<div class="headliner">Feeling lost about product management?</div>
+
+<p>You've come to the <strong>right place</strong> to learn the skills and learn about the top practitioners.</p>
+
+<p>In a way, it is the <strong>Web and Tech Product Management resource I wish I had</strong> as a MBA student.</p>
+
+<br>
+
+<h4>Part 1: Tech basics by building a blog</h4>
+<ul>
+{% for post in site.posts %}
+  {% if {{post.tags[0]}} == 'part01' %}
+  <li>{{ post.tags[1] }}: <a href="{{ post.url }}">{{post.title}}</a> {{ post.date | date: "<small style='color: gray;'>(%b. %d, %Y)</small>"}}</li>
+  {% endif %}
+{% endfor %}
+</ul>
+
+<h4>Part 2 - 5: On broader product management topics</h4>
+<p><em>Hold onto your pants/skirts ... </em></p>
+
+<a href="./blog/technical-PM-outline">Outline of the rest is here</a>
+
+<br><br>
+
+<h4>Progress/Community Note</h4>
+Last night in San Fran, Jackie Bavaro of Asana spoke about having diverse skill sets as a product manager. She blogs about product management at <a target="_" href="http://pmblog.quora.com/">The Art of Product Management</a>.
+<br><br>
+<img class="img-responsive" alt="Jackie from Asana" src="/assets/images/2014-01-24_jackiebo.jpg">
+

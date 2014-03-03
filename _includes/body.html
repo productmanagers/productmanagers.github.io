@@ -1,6 +1,11 @@
-  <div class="container">
-    {% if page.title %}<h2>{{ page.title }}</h2>{% endif %}
-    {% if page.tagline %} <h3><small>{{ page.tagline }}</small></h3>{% endif %}
+  <body>
 
+    {% include navbar.html %}
+    <br />
     {{content}}
-  </div>
+
+    {% include analytics %}
+    {% include footer.html %}
+
+  </body>
+</html>

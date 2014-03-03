@@ -1,36 +1,116 @@
 ---
-layout: default
-description: "This is the Web 101 and Tech Product class I wish I had as a MBA student at Darden. The contents will help non-technical business managers talk the technical talk. Hopefully, it will help you on your journey to be a tech company product manager."
+layout: home
+title: "Home"
+description: "Global Product Management Fast Track community."
 ---
 
-{% include setup %}
+<div class="intro-header">
 
-<div class="headliner">Feeling lost about product management?</div>
+    <div class="container">
 
-<p>You've come to the <strong>right place</strong> to learn the skills and learn about the top practitioners.</p>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="intro-message">
+                    <h1>Product Management Fast Track</h1>
+                    <hr class="intro-divider">
+                    <br />
+                    <ul class="list-inline intro-social-buttons">
+                        <li><a target="_" href="https://www.meetup.com/ProductLovers/" class="btn btn-default btn-lg"><i class="fa fa-calendar fa-fw"></i> <span class="network-name">Meetup</span></a>
+                        </li>
+                        <li><a target="_" href="https://twitter.com/PMFastTrack" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                        </li>
+                        <li><a target="_" href="https://www.linkedin.com/groups/Product-Management-Fast-Track-4952002" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
+                        </li>
+                    </ul>
+                    <br /><br /><br />
+                    <h3>We are a community of aspiring and existing Product Managers.</h3>
+                </div>
+            </div>
+        </div>
 
-<p>In a way, it is the <strong>Web and Tech Product Management resource I wish I had</strong> as a MBA student.</p>
+    </div>
+    <!-- /.container -->
 
-<br>
+</div>
+<!-- /.intro-header -->
 
-<h4>Part 1: Tech basics by building a blog</h4>
-<ul>
-{% for post in site.posts %}
-  {% if {{post.tags[0]}} == 'part01' %}
-  <li>{{ post.tags[1] }}: <a href="{{ post.url }}">{{post.title}}</a> {{ post.date | date: "<small style='color: gray;'>(%b. %d, %Y)</small>"}}</li>
-  {% endif %}
-{% endfor %}
-</ul>
+<div class="content-section-a">
 
-<h4>Part 2 - 5: On broader product management topics</h4>
-<p><em>Hold onto your pants/skirts ... </em></p>
+    <div class="container">
 
-<a href="./blog/technical-PM-outline">Outline of the rest is here</a>
+        <div class="row">
+            <div class="col-lg-5 col-sm-6">
+                <hr class="section-heading-spacer">
+                <div class="clearfix"></div>
+                <h2 class="section-heading">Next Meetup
+                    <br /><br />
+                    Yammer: Measure or Die
+                <p class="lead">March 6, Thursday 7pm. <a target="_blank" href="http://www.meetup.com/ProductLovers/events/162356392/">PMFastTrack Meetup</a>.</p>
+            </div>
+            <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                <img width="300" class="img-responsive" src="assets/images/logos/yammer.png" alt="yammer"><br />
+                <a href="http://www.meetup.com/ProductLovers/events/162356392/" data-event="162356392" class="mu-rsvp-btn">RSVP</a>
+            </div>
+        </div>
 
-<br><br>
+    </div>
+    <!-- /.container -->
 
-<h4>Progress/Community Note</h4>
-Last night in San Fran, Jackie Bavaro of Asana spoke about having diverse skill sets as a product manager. She blogs about product management at <a target="_" href="http://pmblog.quora.com/">The Art of Product Management</a>.
-<br><br>
-<img class="img-responsive" alt="Jackie from Asana" src="/assets/images/2014-01-24_jackiebo.jpg">
+</div>
+<!-- /.content-section-a -->
 
+<div class="content-section-b">
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                <hr class="section-heading-spacer">
+                <div class="clearfix"></div>
+                <h2 class="section-heading">Past Speakers and Events</h2>
+                <p class="lead">We have been fortunate for the generosity of great product managers from awesome companies.</p>
+            </div>
+            <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                <img width="300" class="img-responsive" src="assets/images/logos/indiegogo.jpg" alt="indiegogo">
+                <img width="300" class="img-responsive" src="assets/images/logos/asana.png" alt="asana">
+            </div>
+        </div>
+
+    </div>
+    <!-- /.container -->
+
+</div>
+<!-- /.content-section-b -->
+
+<div class="content-section-a">
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-5 col-sm-6">
+                <hr class="section-heading-spacer">
+                <div class="clearfix"></div>
+                <h2 class="section-heading">About PM Fast Track</h2>
+                <p class="lead">We are a San Francisco-based community built to educate and connect current and aspiring product managers. We focus on learning skills from the best practioners in the field.</p>
+
+                {% include ss-icons.html %}
+                <p>Or subscribe to our mailing list:
+                    {% include mailchimp %}
+                </p>
+                <br />
+                <small>
+                <p>Thanks to <a target="_blank" href="http://join.deathtothestockphoto.com/">Death to the Stock Photo</a> for photographs that you see in this landing page, and to <a target="_" href="http://startbootstrap.com/">Start Bootstrap</a> for the page theme.</p>
+                </small>
+            </div>
+            <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                <img width="225" class="img-responsive" src="assets/images/logos/pmfasttrack.jpeg" alt="pmfasttrack logo">
+            </div>
+        </div>
+
+    </div>
+    <!-- /.container -->
+
+</div>
+<!-- /.content-section-a -->
+
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s); js.id=id;js.async=true;js.src="https://secure.meetup.com/script/217965377037627760507776/api/mu.btns.js?id=80lhfbmdjbqggki85gsh2vmniv";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","mu-bootjs");</script>
