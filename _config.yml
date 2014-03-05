@@ -6,10 +6,10 @@ pygments: true
 
 author :
   name : David Kim
-  email : daviddarden11@gmail.com
-  github : dklounge
-  twitter : findinbay
-  feedburner : productmanagement
+  email : productloverssf@gmail.com
+  github : productmanagers
+  twitter : PMFastTrack
+  feedburner : PMFastTrackBlog
 
 production_url : http://productmanagementfasttrack.com
 BASE_PATH : false

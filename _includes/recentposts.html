@@ -1,0 +1,7 @@
+<h4>Read recent posts</h4>
+
+<ul>
+{% for post in site.posts limit:5 %}
+  <li style="font-size: 15px"><a href="{{ post.url }}">{{post.title}}</a></li>
+{% endfor %}
+</ul>

@@ -1,0 +1,42 @@
+---
+layout: default
+---
+
+{% if page.path contains '_posts' %}
+  <div class="title">{{ page.tags[1] }}: {{page.title}}</div>
+  <br>
+  {% include share_tweet.js %}
+  {% include share_reddit.js %}
+
+  {{content}}
+
+  <br><br>
+
+  <a href="../../">
+    <button type="button" class="btn btn-primary">
+      <span class="glyphicon glyphicon-home"></span> Home</button>
+    </button>
+  </a>
+  <a href="{{ page.previous.permalink }}">
+    <button type="button" class="btn btn-warning">
+      <span class="glyphicon glyphicon-circle-arrow-left"></span> Prev</button>
+    </button>
+  </a>
+  <a href="{{ page.next.permalink }}">
+    <button type="button" class="btn btn-success">
+       Next  <span class="glyphicon glyphicon-circle-arrow-right"></span></button>
+    </button>
+  </a>
+
+  <br><br>
+
+  {% if page.comments %}
+    {% include comments %}
+  {% endif %}
+
+
+{% else %}
+
+  {{content}}
+
+{% endif %}

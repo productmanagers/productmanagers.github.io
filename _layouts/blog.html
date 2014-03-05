@@ -1,5 +1,6 @@
 ---
 layout: default
+title: "Blog"
 ---
 
 <div class="container">
@@ -10,17 +11,7 @@ layout: default
     </div>
 
     <div class="col-md-9 col-sm-8">
-      <h3>{{page.title}}</h3>
-      <small style='color: gray;'>{{page.date | date: "%Y %b %d"}}</small>
-      <br /><br />
-      {% include share_tweet.js %}
-      <br /><br />
-
       {{ content }}
-
-      <br />
-
-      <a href="{{BASE_PATH}}/blog/index.html">Back to All Blogs</a>
     </div>
 
     <div class="col-lg-3 col-sm-4">
