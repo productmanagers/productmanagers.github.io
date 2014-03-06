@@ -11,16 +11,17 @@ layout: default
 
     <div class="col-md-9 col-sm-8">
       <h3>{{page.title}}</h3>
-      <small style='color: gray;'>{{page.date | date: "%Y %b %d"}}</small>
+      <small style='color: gray;'>{{page.date | date: "%Y %b %d"}} <a target="_" href="http://dklounge.github.io">{{page.author}}</a></small>
       <br /><br />
       {% include share_tweet.js %}
       <br /><br />
 
       {{ content }}
-
       <br />
-
       <a href="{{BASE_PATH}}/blog/index.html">Back to All Blogs</a>
+      <br />
+      {% include comments %}
+
     </div>
 
     <div class="col-lg-3 col-sm-4">

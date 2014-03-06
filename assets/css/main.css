@@ -11,6 +11,22 @@ body {
   font-family: proxima-nova, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+body p {
+  font-size: 15px;
+}
+
+p {
+  font-weight: normal;
+}
+
+p.event {
+  font-weight: 700;
+}
+
+a.topic {
+  color: orange;
+}
+
 img {
   max-width: 500px;
 }

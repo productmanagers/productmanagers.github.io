@@ -1,13 +1,22 @@
 ---
 layout: blog
+title: "Blog"
 ---
 
-<p>Be sure to stay connected (subscribe via email) or via <a target="_" href="http://feeds.feedburner.com/PMFastTrackBlog">RSS</a>.
-    </p>
+<p class="lead">Don't miss our newsletter. Stay connected via <a class="topic" target="_" href="http://feeds.feedburner.com/PMFastTrackBlog">RSS</a> or subscribe to get it in your inbox.
+</p>
 
+<h3><a href="{{site.posts[0].url}}">{{site.posts[0].title}}</a></h3>
+
+{{ site.posts[0].content }}
+
+<br /><br />
+
+<h4>Previous post</h4>
 <ul>
-{% for post in site.posts %}
-  <li>{{ post.date | date: "<small style='color: gray;'>%Y %b %d</small>"}}: <a href="{{ post.url }}">{{post.title}}</a> </li>
+{% for post in site.posts limit: 1 %}
+  <li><p>{{ site.posts[1].date | date: "<small style='color: gray;'>%Y %b %d</small>"}}: <a href="{{ site.posts[1].url }}">{{site.posts[1].title}}</a></p></li>
 {% endfor %}
 </ul>
 
+{% include comments %}
