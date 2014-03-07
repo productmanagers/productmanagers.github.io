@@ -2,7 +2,7 @@
 layout: post
 title: "Yammer: Measure or Die"
 description: ""
-permalink: yammer-measure-or-die
+permalink: blog/yammer-measure-or-die
 category:
 tags: []
 author: "David Kim"

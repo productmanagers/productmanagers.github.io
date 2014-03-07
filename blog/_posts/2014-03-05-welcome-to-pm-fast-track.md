@@ -2,7 +2,7 @@
 layout: post
 title: "Welcome to PM Fast Track"
 description: ""
-permalink:
+permalink: blog/welcome-to-pm-fasttrack
 category:
 tags: []
 author: "David Kim"

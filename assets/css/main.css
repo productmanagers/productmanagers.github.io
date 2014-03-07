@@ -144,3 +144,12 @@ footer {
 .twitter {
   margin-bottom: 0px;
 }
+
+.share_rss {
+  display: inline;
+  font-size: 20px;
+}
+
+.share_rss a {
+  color: #f60;
+}
