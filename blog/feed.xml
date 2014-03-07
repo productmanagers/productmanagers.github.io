@@ -16,10 +16,10 @@ description: "PM Fast Track Blog"
 
   {% for post in site.posts %}
   <entry>
-    <id>http://productmanagementfasttrack.com/blog{{ post.id }}</id>
+    <id>http://productmanagementfasttrack.com{{ post.id }}</id>
     <title>{{ post.title | xml_escape }}</title>
     <updated>{{ post.date | date_to_xmlschema }}</updated>
-    <link type="text/html" rel="alternate" href="http://productmanagementfasttrack.com/blog{{ post.url }}" />
+    <link type="text/html" rel="alternate" href="http://productmanagementfasttrack.com{{ post.url }}" />
     <author>
       <name>{{ site.author.name }}</name>
       <email>{{ site.author.email }}</email>
