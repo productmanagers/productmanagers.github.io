@@ -5,7 +5,7 @@ description: ""
 permalink: blog/yammer-measure-or-die
 category:
 tags: []
-author: "David Kim"
+author: <a target="_" href="http://dklounge.github.io">David Kim</a>
 ---
 {% include setup %}
 

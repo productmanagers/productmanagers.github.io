@@ -1,7 +1,7 @@
-<!-- Place this tag where you want the +1 button to render. -->
-<div class="g-plusone" data-size="medium" data-annotation="inline" data-width="300"></div>
+<!-- Place this tag where you want the share button to render. -->
+<div class="g-plus" data-action="share" data-annotation="bubble"></div>
 
-<!-- Place this tag after the last +1 button tag. -->
+<!-- Place this tag after the last share tag. -->
 <script type="text/javascript">
   (function() {
     var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
