@@ -3,8 +3,8 @@ layout: post
 title: "Welcome to PM Fast Track"
 description: ""
 permalink: blog/welcome-to-pm-fasttrack
-category:
-tags: []
+category: general
+tags: [general]
 author: <a target="_" href="http://dklounge.github.io">David Kim</a>
 ---
 {% include setup %}

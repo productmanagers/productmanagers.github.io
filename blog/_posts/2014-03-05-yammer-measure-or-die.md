@@ -3,8 +3,8 @@ layout: post
 title: "Yammer: Measure or Die"
 description: ""
 permalink: blog/yammer-measure-or-die
-category:
-tags: []
+category: analytics
+tags: [analytics]
 author: <a target="_" href="http://dklounge.github.io">David Kim</a>
 ---
 {% include setup %}

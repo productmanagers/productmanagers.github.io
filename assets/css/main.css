@@ -153,3 +153,7 @@ footer {
 .share_rss a {
   color: #f60;
 }
+
+#logo img {
+  margin-bottom: 25px;
+}
