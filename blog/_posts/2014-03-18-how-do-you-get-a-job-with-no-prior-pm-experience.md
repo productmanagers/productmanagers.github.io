@@ -19,7 +19,7 @@ Someone posed that [very question on Quora](http://www.quora.com/How-do-you-get-
 * Read voraciously (books, blogs, everything)
 * Start a blog and share your thoughts on the industry
 
-We have seen an exampl of some of these ideas by [Samuel Hulick](http://www.samuelhulick.com/) who focuses on tear-downs of onboarding process of various products on a site called [User Onboarding](http://www.useronboard.com/onboarding-teardowns/).
+We have seen an example of some of these ideas by [Samuel Hulick](http://www.samuelhulick.com/) who focuses on tear-downs of onboarding process of various products on a site called [User Onboarding](http://www.useronboard.com/onboarding-teardowns/).
 
 ###What PMs Say
 From prior events, we have heard advice directly from PMs in our local community.
