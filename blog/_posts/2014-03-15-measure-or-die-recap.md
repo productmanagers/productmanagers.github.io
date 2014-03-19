@@ -14,3 +14,11 @@ Neil and Ken shared an awesome view into how they team up to make data-based and
 * Video: [http://youtu.be/YSHgsmdf95E](http://youtu.be/YSHgsmdf95E)
 
 * SlideShare: [http://www.slideshare.net/NeilMcCarthy1/measure-or-die](http://www.slideshare.net/NeilMcCarthy1/measure-or-die)
+
+###Talk to us
+
+We believe in healthy communication. We want to hear from you.
+
+If you attended this event, please let us know what you thought via this [brief event survey](http://goo.gl/O2LYmQ). Also, we want to hear from you about [future event ideas](http://goo.gl/OnxAj2).
+
+If you have ideas, posts, or links you would like to share in a future post, please share it with us [via this form](http://goo.gl/OIsy17).
