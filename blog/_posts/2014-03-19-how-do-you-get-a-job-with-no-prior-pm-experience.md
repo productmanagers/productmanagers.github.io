@@ -49,11 +49,3 @@ The advice Jackie and Jason share points to this wisdom. Start with a list of yo
 6. Emphasize other relevant strengths, but remember to focus on the team\'s needs and not your skills
 
 All of these cues can help mitigate the risk of someone applying for a role without prior experience in the field.
-
-###Talk to us
-
-We believe in healthy communication. We want to hear from you.
-
-If you have ideas, posts, or links you would like to share in a future post, please share it with us [via this form](http://goo.gl/OIsy17).
-
-Also, we want to hear from you about [future event ideas](http://goo.gl/OnxAj2).
