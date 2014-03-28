@@ -5,6 +5,7 @@ description: ""
 permalink: blog/SF-Uncubed-March2014
 category: events
 tags: [events]
+author: <a target="_" href="http://dklounge.github.io">David Kim</a>
 ---
 {% include setup %}
 

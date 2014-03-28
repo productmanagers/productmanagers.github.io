@@ -6,6 +6,12 @@ title: "Blog"
 <p class="lead">Don't miss our newsletter. Stay connected via <a class="topic" target="_" href="http://feeds.feedburner.com/PMFastTrackBlog">RSS</a> or subscribe to get it in your inbox.
 </p>
 
+<h3><a href="{{site.posts[0].url}}">{{site.posts[0].title}}</a></h3>
+
+  {{ site.posts[0].content }}
+
+  <br />
+
 <h3>All previous posts</h3>
 <ul>
 {% for post in site.posts %}
