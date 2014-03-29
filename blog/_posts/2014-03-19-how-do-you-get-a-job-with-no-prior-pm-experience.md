@@ -34,10 +34,12 @@ In another session, Jason Shah, formerly of Yammer, outlined 5 things PMs do, an
 
 and show good product sense through your studies and networking. You can find Jason\'s slides [on slideshare](http://www.slideshare.net/jasonshah1/getting-hired-productmanager-slides).
 
-One more note, Jason Shah subsequently designed a course with tips and interviews from various product managers as a course on Udemy. This is a discounted link for our community members: [How to Get a Job in Product Management](https://www.udemy.com/how-to-get-a-job-in-product-management/?affcode=E0AfdVhUQm4%3D).
+One more note, Jason Shah subsequently designed a course with tips and interviews from various product managers as a course on Udemy. This is a __discounted link__ for our community members: [How to Get a Job in Product Management](https://www.udemy.com/how-to-get-a-job-in-product-management/?affcode=E0AfdVhUQm4%3D).
 
 ###Start with an End in Mind
-One of the [7 Habits of Highly Effective People](http://www.amazon.com/gp/product/B00GOZV3TM/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00GOZV3TM&linkCode=as2&tag=techpr0c-20), a best seller by Stephen Covey, is to start with an end in mind.
+One of the [7 Habits of Highly Effective People](http://www.amazon.com/gp/product/B00GOZV3TM/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00GOZV3TM&linkCode=as2&tag=pmfatr-20), a best seller by Stephen Covey, is to start with an end in mind.
+
+[![7 Habits]({{site.url}}/assets/images/2014-03-19_7Habits.jpg "7 Habits")](http://www.amazon.com/gp/product/B00GOZV3TM/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00GOZV3TM&linkCode=as2&tag=pmfatr-20)
 
 The advice Jackie and Jason share points to this wisdom. Start with a list of your ideal companies, and seek out information and contacts who can help you figure out what it takes to be a product manager with that particular team. This will help you make informed decisions about how to approach an interview opportunity:
 
