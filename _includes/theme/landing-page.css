@@ -24,8 +24,8 @@ body, h1, h2, h3, h4, h5, h6 {
 
 .intro-message {
 	position: relative;
-	padding-top: 18%;
-	padding-bottom: 17%;
+	padding-top: 16%;
+	padding-bottom: 12%;
 }
 
 .intro-message > h1 {

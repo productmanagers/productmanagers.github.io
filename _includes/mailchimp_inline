@@ -1,0 +1,17 @@
+<!-- Begin MailChimp Signup Form -->
+
+<div id="form-landing">
+  <form role="form" action="http://productmanagementfasttrack.us3.list-manage.com/subscribe/post?u=f42de1024ad6e1711b562476f&amp;id=85ebd946c3" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+
+    <input type="email" value="" name="EMAIL" id="mce-EMAIL" class="form-control email-subscription" placeholder="your email address" required>
+
+    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+
+    <div style="position: absolute; left: -5000px;"><input type="text" name="b_f42de1024ad6e1711b562476f_85ebd946c3" value=""></div>
+
+    <button type="submit" class="btn btn-warning" name="subscribe" id="mc-embedded-subscribe">I want the PM Newsletter!</button>
+
+  </form>
+</div>
+
+<!--End mc_embed_signup-->

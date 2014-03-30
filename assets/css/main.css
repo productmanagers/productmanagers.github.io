@@ -157,3 +157,11 @@ footer {
 #logo img {
   margin-bottom: 25px;
 }
+
+#form-landing input {
+  display: inline;
+}
+
+.email-subscription {
+  width: 300px;
+}
