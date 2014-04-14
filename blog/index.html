@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: "Blog"
+title: "Newsletter"
 ---
 
 <p class="lead">Don't miss our newsletter. Stay connected via <a class="topic" target="_" href="http://feeds.feedburner.com/PMFastTrackBlog">RSS</a> or subscribe to get it in your inbox.
@@ -12,9 +12,9 @@ title: "Blog"
 
   <br />
 
-<h3>All previous posts</h3>
+<h3>Recent posts</h3>
 <ul>
-{% for post in site.posts %}
+{% for post in site.posts limit: 5 %}
   <li><p>{{ post.date | date: "<small style='color: gray;'>%Y %b %d</small>"}}: <a href="{{ post.url }}">{{post.title}}</a></p></li>
 {% endfor %}
 </ul>
