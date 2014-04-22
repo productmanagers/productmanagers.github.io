@@ -3,14 +3,12 @@ layout: blog
 title: "Newsletter"
 ---
 
-<p class="lead">Don't miss our newsletter. Stay connected via <a class="topic" target="_" href="http://feeds.feedburner.com/PMFastTrackBlog">RSS</a> or subscribe to get it in your inbox.
+<p class="lead">Don't miss our newsletter. Stay connected via <a class="topic" target="_" href="http://feeds.feedburner.com/PMFastTrackBlog">RSS</a> or <a class="topic" target="_" href="http://goo.gl/G9W27t">subscribe</a> to get it in your inbox.
 </p>
 
 <h3><a href="{{site.posts[0].url}}">{{site.posts[0].title}}</a></h3>
 
   {{ site.posts[0].content }}
-
-  <br />
 
 <h3>Recent posts</h3>
 <ul>
@@ -18,10 +16,6 @@ title: "Newsletter"
   <li><p>{{ post.date | date: "<small style='color: gray;'>%Y %b %d</small>"}}: <a href="{{ post.url }}">{{post.title}}</a></p></li>
 {% endfor %}
 </ul>
-
-<h3>Talk to us</h3>
-
-<p>Do you want to share a post or a link? <a target="_" href="http://goo.gl/OIsy17">Please tell us</a>!</p>
 
 <br />
 
