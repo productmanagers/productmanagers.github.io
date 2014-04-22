@@ -1,0 +1,22 @@
+---
+layout: page
+title: "New Page"
+description: ""
+---
+{% include setup %}
+
+
+<h3>Archive of all past posts</h3>
+<br />
+
+<div class="row">
+  <ul>
+    {% for post in site.posts %}
+      <li style="font-size: 15px">{{ post.date | date: "<span style='color: gray; font-family: Courier;'>%d %b %Y: </span>"}} <a href="{{ post.url }}">{{post.title}}</a></li>
+    {% endfor %}
+  </ul>
+
+
+
+
+</div>
