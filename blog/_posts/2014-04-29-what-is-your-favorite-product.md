@@ -58,13 +58,13 @@ __First__, if you are answering this question during a screening call with a rec
 
 If you are sitting at an interview or talking to the hiring PM, then by all means dig deeper and outline the elements shared above in the Quora answer. A 2-minute time frame would be a good limit to set. You don\'t want to ramble.
 
-And as you are "selling," it helps to not only talk confidently, but gives you chance to practice other competence cues:
+And as you are "selling," talk confidently, and practice other competence cues:
 
-* Look them in the eye
-* Don\'t ramble but come across like you know what you are talking about
-* If you are listing off many things, try counting with your fingers - like a politician
+* Maintain eye contact
+* Speak confidently from your knowledge (practice helps)
+* Support your statements with clear reasoning
 
-__Second__, consider the buying cycle (interview cycle). Just as recruiting response is different from the conversation with PM, so is your answer to this quesiton during happy hour different from an interview. Or for that matter, first stage versus second stage. The point is, just be aware of where you are, and empathize accordingly (there is no magic right or wrong answer).
+__Second__, consider the buying cycle (interview cycle). Just as recruiting response is different from the conversation with PM, so is your answer to this question during happy hour different from an interview. Or for that matter, first stage versus second stage. The point is, just be aware of where you are, and empathize accordingly (there is no magic right or wrong answer).
 
 ###Take charge
 More can be said, but let\'s apply the [80/20 rule](http://en.wikipedia.org/wiki/Pareto_principle) here. Practice these and you should move onto the next set of prepations, like [reading up on frameworks]({{BASE_PATH}}/newsletter/pmfasttrack-2014_04-29_frameworks) so you can be well-informed and knock people\'s socks off with your ability to think and break down a product rigorously.
