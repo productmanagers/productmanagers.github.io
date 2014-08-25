@@ -13,9 +13,18 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
             <ul class="nav navbar-nav">
-                <li><a href="{{BASE_PATH}}/blog/">Newsletter</a></li>
-                <li><a href="{{BASE_PATH}}/pages/archive.html">Archive</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        Newsletter
+                        <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="{{BASE_PATH}}/blog/">Current</a></li>
+                        <li><a href="{{BASE_PATH}}/pages/archive.html">Archive</a></li>
+                    </ul>
+                </li>
                 <li><a href="{{BASE_PATH}}/resources/">Resources</a></li>
+                <li><a href="{{BASE_PATH}}/training/">Training</a></li>
                 <li><a href="{{BASE_PATH}}/pages/about.html">About</a></li>
             </ul>
         </div>
