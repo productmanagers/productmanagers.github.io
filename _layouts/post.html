@@ -25,10 +25,6 @@ layout: default
 
       {{ content }}
 
-      <br />
-      <h4>Donating = Caring</h4>
-      {% include donate.html %}
-
     <br />
       <a href="{{BASE_PATH}}/blog/index.html">Back to All Blogs</a>
     <br />
@@ -56,7 +52,9 @@ layout: default
 
       <br /><br />
       <h4>Donating = Caring</h4>
-      {% include donate.html %}
+      <div class="well">
+        {% include donate.html %}
+      </div>
     </div>
 
   </div>

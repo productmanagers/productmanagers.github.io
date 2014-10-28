@@ -29,9 +29,6 @@ description: "PM Fast Track weekly newsletter. Helps you in your product manager
       {% include share_gplus.js %}
       {% include share_tweet.js %}
       {{ post.content | xml_escape }}
-
-      <h4>Donating = Caring</h4>
-      {% include donate.html %}
     </content>
   </entry>
   {% endfor %}
