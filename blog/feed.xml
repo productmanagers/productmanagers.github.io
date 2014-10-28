@@ -25,9 +25,6 @@ description: "PM Fast Track weekly newsletter. Helps you in your product manager
       <email><a target="_" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></email>
     </author>
     <content type="html">
-      {% include share_linkedin.js %}
-      {% include share_gplus.js %}
-      {% include share_tweet.js %}
       {{ post.content | xml_escape }}
     </content>
   </entry>
