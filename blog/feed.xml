@@ -22,10 +22,16 @@ description: "PM Fast Track weekly newsletter. Helps you in your product manager
     <link type="text/html" rel="alternate" href="http://productmanagementfasttrack.com{{ post.url }}" />
     <author>
       <name>{{ site.author.name }}</name>
-      <email>{{ site.author.email }}</email>
+      <email><a target="_" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></email>
     </author>
     <content type="html">
+      {% include share_linkedin.js %}
+      {% include share_gplus.js %}
+      {% include share_tweet.js %}
       {{ post.content | xml_escape }}
+
+      <h4>Donating = Caring</h4>
+      {% include donate.html %}
     </content>
   </entry>
   {% endfor %}
