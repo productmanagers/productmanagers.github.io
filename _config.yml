@@ -20,7 +20,7 @@ ASSET_PATH: false
 analytics:
   provider: google
   google:
-    tracking_id: 'UA-43170427-1'
+    tracking_id:
   getclicky:
     site_id:
 
